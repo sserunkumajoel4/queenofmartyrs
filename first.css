@@ -3,3 +3,4 @@
 nav{background-color:#080830;;width:100%;height:auto;}
 body{box-sizing:border-box;}
 nav{display:flex;flex-direction:colum;}
+h1{font-size:20px;}
