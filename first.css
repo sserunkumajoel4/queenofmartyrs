@@ -7,7 +7,6 @@ h1{font-size:35px;}
 @media screen and (max-width:550px){
 h1{font-size:25px;}
   .butt{display: none}
-  .col-1,.col-2,.col-3,.col-4s{display:inline-block;width:100%;}
 }
 
 
