@@ -7,7 +7,7 @@ h1{font-size:30px;}
   @media screen and (max-width:480px){
           
             .col-1,.col-2,.col-3,.col-4{display:inline-block;width:100%;}
-            h1{font-size:30px;}
+            h1{font-size:25px;}
   .butt{display: none}
         
   }
@@ -43,8 +43,8 @@ h1{font-size:30px;}
          color: yellow;
       }
 
-@media screen and (min-width:400px){
+@media screen and (min-width:408px){
 .dd{display:none;}
- 
+ h1{font-size:40px;}
   .butt{display: inline;}
 }
