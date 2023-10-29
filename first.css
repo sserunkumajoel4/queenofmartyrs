@@ -28,6 +28,7 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
+nav h1 ul{position:fixed}
 .logo{height: 90px;width: 90px;border-radius: 50%;}
 .dd{display: block;position: relative;}
 .dd-content{display: none;position: absolute;}
