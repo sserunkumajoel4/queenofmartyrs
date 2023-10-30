@@ -6,9 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
-button:hover{background-color:yellow;}
 
 h1 {
     margin: 0;
@@ -44,4 +42,3 @@ ul{display: none;}
 
 }
 .dd-content{background-color: blue;height:auto;right:20px;box-shadow: -10px -5px 5px;}
-
