@@ -6,9 +6,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top:0;
-    left:;
-    position:fixed;
+
 }
 button:hover{background-color:yellow;}
 
