@@ -1,0 +1,33 @@
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-grid {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #007BFF; /* Change to your preferred hover color */
+  }
+  
+  .copyright, .developer {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  
