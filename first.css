@@ -49,11 +49,11 @@ nav a:hover {
 
    
 }
-.logo{width: 70px;height: 70px;}
+.logo{width: 90px;height: 90px;}
 .nav-list{padding-left:10px ;}
 
 @media screen and (max-width:768px) {
-    h1{font-size: 25px;}
+    h1{font-size: 22px;}
     
 }
 
