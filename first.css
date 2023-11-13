@@ -93,3 +93,7 @@ nav a:hover {
     .dd{display: none;}
     
  }
+@media screen and (max-width:768px){
+    .logo{width:60px;height:60px;}
+    h1{font-size:20px;}
+}
