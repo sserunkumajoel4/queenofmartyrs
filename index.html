@@ -33,7 +33,7 @@ background-repeat:no-repeat;height:800px;
 animation-iteration-count:infinite;}
 
 	 .row::after{content:"";display: block;clear: both;}
-        .row>div{float: left;height: 500px; color: black;padding:10px;}
+        .row>div{float: left;height:auto; color: black;padding:10px;}
         .col-1{width:25%;}
         .col-2{width:25%;}
         .col-3{width:25%;}
@@ -86,10 +86,13 @@ animation-iteration-count:infinite;}
         .ro-b{width: 75%;align-items:center}
         .grot{width: 280px;height: 320px;border-radius: 10px;}
 	@media screen and (max-width:768px){
-		ro-a,ro-b{width:100%}
+		.ro-a,.ro-b{width:100%}
 	}
-
-
+.tab{height:100px;width:120px}
+	.tab:hover{ transform: rotateX(150deg);}
+@media screen and (max-width:768px){
+	.tab{height:55px;width:65px;}
+}
 	
 </style>
   <link rel="stylesheet" type="text/css" href="first.css"  >  
@@ -292,9 +295,9 @@ animation-iteration-count:infinite;}
 	
 <div style="width:100%; height: auto; margin: auto 0; display:flex;flex-dirrection:row;justify-content: center;">
 <p style="margin-top:60px;" > 
-	<button class="go"><a href="acaddemics.html"><img src="af.jpg" style="height: 100;width:120"><br>ACADEMICS </a></button>
+	<button class="go"><a href="acaddemics.html"><img src="af.jpg" class="tab" ><br>ACADEMICS </a></button>
 
-<button class="go"><a href="sportz.html"><img src="sport.jpeg" style="height: 100;width: 120"><br> GAMES AND SPORTS</a></button>
+<button class="go"><a href="sportz.html"><img src="sport.jpeg" class="tab"><br> GAMES AND SPORTS</a></button>
 <span>
 <button class="go" style="border-radius: 10%;font-size: 20;"> <img src="ad.png" style="max-width:100%;height:100"  ><br>ADMNISTRATION</button>
 </span>
@@ -302,7 +305,7 @@ animation-iteration-count:infinite;}
 <button class="go"  style="border-radius: 10%;font-size: 15;"> <img src="regious.jpg" style="height:100;width:110"><a href="religious.html" > <br>RELIGIOUS</button>
 
 
-<button class="go" style="border-radius: 10%;font-size: 15;"><a href="clubs.html"> <img src="gv.jpg" style="height:100;120"><br>SCHOOL CLUBS</a></button>
+<button class="go" style="border-radius: 10%;font-size: 15;"><a href="clubs.html"> <img src="gv.jpg" class="tab"><br>SCHOOL CLUBS</a></button>
 </span></p></p></div></center>
 
 
