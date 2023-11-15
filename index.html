@@ -36,13 +36,20 @@ background-repeat:no-repeat;height:800px;
 animation-iteration-count:infinite;}
 
 	 .row::after{content:"";display: block;clear: both;}
-        .row>div{float: left;height:auto; color: black;padding:10px;}
+        .row>div{float: left;height:500px; color: black;padding:10px;}
         .col-1{width:25%;}
         .col-2{width:25%;}
         .col-3{width:25%;}
         .col-4{width: 25%;}
-	.col-1,.col-2,.col-3,.col-4{font-size:20px;}
 	
+	.col-1,.col-2,.col-3,.col-4{font-size:20px;}
+	@media screen and (max-width:768px){
+		  .row>div{float: left;height:auto; color: black;padding:10px;}
+        .col-1{width:25%;}
+        .col-2{width:25%;}
+        .col-3{width:25%;}
+        .col-4{width: 25%;}
+	}
 	@media screen and (max-width: 768px) {
    .col-1,.col-2,.col-3,.col-4{display:inline-block;width:100%;}
 	  
