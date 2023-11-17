@@ -17,7 +17,7 @@
  
 
 .not{float:left;opacity:1g}
-.go:hover{background-color::#080830;transform:translateX(40);}
+.go:hover{background-color:#080830;transform:translateX(40);}
 .first{background-image:url("flat.jpg");background-size:cover;width:100%;color:white;
 background-repeat:no-repeat;height:800px;
 }
@@ -340,7 +340,13 @@ header{width:100%}
       <a href="https://www.youtube.com/@queenofmartyrshighschool1181" class="social-icon"><i class="fab fa-youtube"></i></a>
     </div>
   </footer>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector(".dd-btn").addEventListener("click", function () {
+            document.querySelector("nav ul").classList.toggle("show");
+        });
+    });
+</script>
 
 </body>
 </html> 
