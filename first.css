@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:;
 }
 .logo{width:90px;height:90px;border-radius:50%;}
 /* Header Styles */
@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin: 0;font-family:Roboto;
 }
 
 /* Navigation Styles */
