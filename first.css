@@ -102,37 +102,3 @@ nav a:hover {
 
 
 
-@media (max-width: 768px) {
-    nav ul {
-        display: none;
-        flex-direction: column; /* Stack the list vertically */
-        position: absolute;
-        top: 60px; /* Adjust the top position as needed */
-        left: 0;
-        width: 100%;
-        background-color: rgb(3, 3, 32);
-    }
-
-    nav ul.show {
-        display: flex; /* Show the list when the class is added */
-    }
-
-    nav li {
-        margin-right: 0;
-        margin-bottom: 10px; /* Add space between list items */
-    }
-
-    .dd-btn {
-        display: block; /* Show the dropdown button */
-    }
-
-    .dd-content {
-        width: 100%;
-        height: auto;
-    }
-
-    .dd:hover > .dd-content {
-        height: auto; /* Adjust height as needed */
-    }
-}
-
