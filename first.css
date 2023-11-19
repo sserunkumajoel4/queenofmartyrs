@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.logo{width:90px;height:90px;}
+.logo{width:90px;height:90px;border-radius:50%;}
 /* Header Styles */
 header {
     position: fixed;
