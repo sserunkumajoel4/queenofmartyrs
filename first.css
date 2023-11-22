@@ -11,6 +11,7 @@ header {
     left: 0;
     width: 100%;
     background-color: rgb(3, 3, 32);
+     background-image: url(st.jpg);
     color: #fff;
     display: flex;
     justify-content: space-between;
