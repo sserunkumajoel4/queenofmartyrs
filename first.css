@@ -12,6 +12,7 @@ header {
     width: 100%;
    
      background-image: url(st.jpg);
+      text-shadow: 2px 3px blue;
     color: #fff;
     display: flex;
     justify-content: space-between;
