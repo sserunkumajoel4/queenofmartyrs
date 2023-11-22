@@ -11,7 +11,7 @@ header {
     left: 0;
     width: 100%;
    
-     background-image: url(st.jpg);
+   background-color: rgb(3, 3, 32);
       text-shadow: 2px 3px blue;
     color: #fff;
     display: flex;
