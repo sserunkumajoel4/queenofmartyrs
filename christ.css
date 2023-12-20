@@ -1,0 +1,21 @@
+.first{display:flex;justify-content:center;align-items:center;}
+/* the christmast festival card  */
+  .blinking-image {
+            animation: blink 5s infinite; /* Adjust the duration as needed */
+        }
+        
+        @keyframes blink {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+       
+        .christ{width: 400px;}
+        @media screen and (max-width:768px) {
+            .christ{width: 300px;}
+            
+        }
+        
