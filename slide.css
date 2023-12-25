@@ -27,3 +27,7 @@
         
     @media screen and (min-width:768px) {
         .para{ padding-left: 400px;padding-right: 40px;}
+       @media screen and (min-width:768px){
+         .update{display:none;}
+         .para{padding:25px;}
+       }
