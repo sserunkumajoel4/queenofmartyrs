@@ -33,7 +33,7 @@ nav{grid-area: nav;}
 .more{grid-area:more ;}
 footer{grid-area: footer;}
 nav,.hero,.update,.section1,.section2,.section3,.section4,.section5,.section6,.section7,.section8,.section9,.section10,.location,.more,footer{padding: 10px;box-shadow: 5px 10px 15px blue;background-color:white;border-radius: 10px;}
-.hero{height: 400px;width: 100%;}
+.hero{height: 520px;width: 100%;}
 
 p{font-family: Georgia}
 a>img{height: 70px;}
