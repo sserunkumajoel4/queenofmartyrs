@@ -43,5 +43,5 @@ height: 0px;background-color: white;overflow: hidden;transition: height 2s;
 }
 .dropdown-content>a{display: block;padding: 15px;
 text-decoration: none;color: blue;}
-.btn{background-color: rgb(55, 55, 83);color:white;width: 120px;text-align: center;}
+.btn{background-color: rgb(55, 55, 83);color:white;width: 120px;text-align: center;border-radius:10px;width:120px;height:40px}
 /*the end of the dropdown  */
